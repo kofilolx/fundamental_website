@@ -1,2 +1,2 @@
-# fundaamental_website
+# fundamental_website
 HTML CSS
