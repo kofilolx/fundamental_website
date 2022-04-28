@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NAV DOCUMENT</title>
+    </head>
+    <body>
+        <style>
+            body{
+                margin: 0;
+            }
+            .navbar{
+                background-color: rgb(224, 28, 61);
+                display: flex;
+                font-family: sans-serif;
+                font-weight: bold;
+                padding: 1.2em;
+                justify-content: space-between;
+                align-items: center;
+                height: 100%;
+               
+                
+            }
+            .navbar a{
+                color: white;
+                padding-left: 20px;
+                font-size: 20px;
+            }
+            .parent-container{
+                height: 300px;
+                width: 100%;
+                display: flex;
+            }
+            .container{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                margin: 10px;
+            }
+        
+        .container .one{
+            background-color: red;
+            height: 100%;
+            width: 33.33%;
+        }
+        .container .two{
+            background-color: blue;
+            height: 100%;
+            width: 33.33%;
+        }
+        .container .three{
+            background-color: green;
+            height: 100%;
+            width: 33.33%;
+        }
+        .second-container{
+                height: 300px;
+                width: 100%;
+                display: flex;
+            }
+        .cont{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                margin: 10px;
+            }
+        .cont .four{
+            background-color: orange;
+            height: 100%;
+            width: 70%;
+        }
+        .cont .five{
+            background-color: pink;
+            height: 100%;
+            width: 30%;
+        }
+        </style>
+        <nav class="navbar">
+            <div>
+                <a href="#"><img src="pic1.png" alt="pic1" height="40px" width="40px"></a>
+            </div>
+            <div>
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Services">Contacts</a>
+            </div>
+        </nav>
+        <h1 style="text-align: center;">Arranging layout</h1>
+        <div class="parent-container">
+                <div class="container">
+                    <div class="container one"></div>
+                    <div class="container two"></div>
+                    <div class="container three"></div>
+                    
+                </div>
+        </div>
+        <br>
+        <div class="second-container">
+            <div class="cont">
+                <div class="cont four"></div>
+                <div class="cont five"></div>            
+            </div>
+        </div>
+        <br>
+        <br>
+        <footer style="text-align: center; padding: 20px; background-color: cyan; font-size: 17px; font-family: sans-serif; font-weight: bold;">
+            copyright Darko &copy; Darko &trade;
+        </footer>
+    </body>
+</html>

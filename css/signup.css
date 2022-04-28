@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("../images/signup.jpg"); 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    margin: auto;
+    max-width: 500px;
+    padding: 1em;
+    background-color: white;
+    position: relative;
+    border-radius: 2em;
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password], input[type=date], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 2rem;
+  }
+  
+ /* input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }*/
+
+
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #063d7c;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
